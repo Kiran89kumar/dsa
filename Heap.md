@@ -55,20 +55,23 @@ Index:  0  1  2  3  4  5  6  7
 Value:  -  5 10  8 20 15 12  9
 Parent=i//2, Left=2i, Right=2i+1
 
-### Navigation Formulas (Java)
-```java
-int parent(int i) {
-    return (i - 1) / 2;
-}
+---
 
-int leftChild(int i) {
-    return 2 * i + 1;
-}
+## Index Formulas
 
-int rightChild(int i) {
-    return 2 * i + 2;
-}
-```
+- **1-based indexing (recommended):** parent = i // 2, left = 2i, right = 2i + 1
+- **0-based indexing:** parent = (i-1)//2, left = 2i + 1, right = 2i + 2
+
+**Note:** 1-based indexing is easier for calculations - no need to subtract 1 for parent!
+
+---
+
+## Core Operations
+
+- **Peek:** O(1)
+- **Push/Insert:** O(log n)
+- **Pop/Extract:** O(log n)
+- **Build from array:** O(n)
 
 ---
 
