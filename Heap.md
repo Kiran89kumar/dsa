@@ -40,11 +40,20 @@ For a node at index `i`:
  15
 ```
 
-### Array Representation
+### Array layouts
+
+**Max-heap array (1-based):**
+```
+Index:  0  1  2  3  4  5  6  7  8
+Value:  - 50 30 40 20 10 35 25 15
+Parent=i//2, Left=2i, Right=2i+1
+```
+
+**Min-heap array (1-based):**
 ```
 Index:  0  1  2  3  4  5  6  7
-Value: 50 30 40 20 10 35 25 15
-```
+Value:  -  5 10  8 20 15 12  9
+Parent=i//2, Left=2i, Right=2i+1
 
 ### Navigation Formulas (Java)
 ```java
