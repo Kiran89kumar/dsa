@@ -1,4 +1,4 @@
-# dsa
+# DSA
 
 This repository is intended for Data Structures and Algorithms (DSA) practice and resources.
 
