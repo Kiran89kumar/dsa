@@ -54,7 +54,7 @@ Parent=i//2, Left=2i, Right=2i+1
 Index:  0  1  2  3  4  5  6  7
 Value:  -  5 10  8 20 15 12  9
 Parent=i//2, Left=2i, Right=2i+1
-
+```
 ---
 
 ## Index Formulas
